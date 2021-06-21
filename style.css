@@ -1,0 +1,614 @@
+*{ /*reset simples*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open-sans";
+}
+.clear{
+    clear: both;/*class para elementos flutuados*/
+}
+
+.center{
+    /*limitando o tamanho da tela*/
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/*estilizando header*/
+header{
+    width: 100%;
+    height: 90vh;
+    background-image: url('../imagens/capa.png');
+    min-height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: center;
+}
+
+header nav.descktop-menu{
+    width: 100%;
+    padding-top: 25px;
+    position: relative;
+}
+header nav.descktop-menu ul{
+    float: right;   
+    list-style: inside;
+    list-style: none;
+    margin-top:25px ;
+}
+header nav.descktop-menu li{
+    padding: 0px 20px;
+    float: left;
+}
+header nav.descktop-menu li a{
+    color:white;
+    text-decoration: none;
+    font-size: 17px;
+}
+/*menu mobile*/
+nav.descktop-menu .mobile-menu{
+    float: right;
+    width: 100%;
+    text-align: center;
+    list-style: inside;
+    list-style: none;
+    position: absolute;
+    top:60px;
+    display: none;
+    opacity: 0.8;
+}
+nav.descktop-menu ul.mobile-menu  li{
+    float: none;
+    background-color: rgb(255, 247, 247);
+    border-bottom: solid 1px #ccc;
+    padding: 0;
+}
+nav.descktop-menu ul.mobile-menu li a{
+    color: black;
+    width: 100%;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    line-height: 50px;
+}
+nav.descktop-menu ul.mobile-menu li a:hover{
+    background-color: rgb(200, 200, 200);
+}
+.hambur{
+    background-image: url('../imagens/menu.png');
+    width: 30px;
+    height: 30px;
+    background-size: 100% 100%;
+    background-position:  center;
+    position: absolute;
+    right: 20px;
+    top:50px;    
+    display: none;
+    cursor: pointer;
+}
+/*fim menu mobile*/
+
+.logo{
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.logo img{
+    width: 100%;
+}
+
+.container-texto{
+    width: 600px;
+    float: right;
+    margin: 190px 150px;
+}
+
+.container-texto h1{
+    color: #fff;
+    font-size: 42px;
+    width: 100%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+}
+
+.container-texto p{
+    color: white;
+    margin-top: 20px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+}
+/*fim header*/
+
+/*section com imagem de celular*/
+.section1 {
+     height: auto;
+     background-color: #472562;
+
+
+}
+section.section1 div.center{
+    max-width: 900px;/*limitando mais o tamanho da tela para ajustar elementos*/
+} 
+
+/*container texto*/
+.section1 .section-texto{
+     width: 50%;
+     padding: 10px;
+     position: relative;
+     left: 65px;
+     display: inline-block;
+  
+}
+.section1 .section-texto h1{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    font-size: 28px;
+    margin-top: 40px;
+    width: 100%;
+}
+.section1 .section-texto p{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: normal;
+    font-size: 17px;
+    margin-top: 20px;
+}
+
+.section1 .section-texto ul{
+    list-style: inside;
+    color: white;
+}
+.section1 .section-texto ul li{
+    margin-top: 10px;
+}
+.section1 .section-texto button{
+    width: 165px;
+    height: 44px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 25px;
+    color: white;
+    font-size: 15px;
+    background-color: #FF703D;
+}
+
+.section1  div.img{
+    background-image: url('../imagens/device.png');
+    height: 430px;
+    width: 50%;
+    background-size: 100% 100%;
+    float: right;
+    margin-top: -30px;
+    position: relative;
+}
+/*fim section com imagem de celular*/
+
+
+/*estilizando section2*/
+.section2{
+    height: auto;
+    padding: 5px;
+    text-align: center;
+}
+
+.section2 div h1 {
+   font-weight: lighter;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 25px;
+   margin-top: 20px; 
+   color:  #472663;
+   padding: 10px;
+   width: 100%;
+}
+.section2 div p {
+    font-size: 17px;
+    margin-top: 20px; 
+    color:  #472663;
+    padding: 10px;
+    padding: 0 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    width: 100%;
+    max-width: 900px;
+    display: inline-block;
+}
+
+.section2 div.img{
+    width: 100%;
+    max-width: 1000px;
+    height: 400px;
+    display: inline-block;
+    text-align: center;
+    background-image: url('../imagens/mockup.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+    position: relative;
+    top: 70px;
+    margin-top: 10px;
+}
+
+/*fim section2*/
+
+/*estilizando section3*/
+.section3 {
+    width: 100%;
+    height: 400px; 
+}
+
+.section3 .parte1{
+    width: 50%;
+    height: 100%;
+    background-color: #835fa7;
+    float: left;
+}
+.section3 .parte2{
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-color: #fff;
+}
+.section3 .texto-section3{
+    width: 100%;
+    max-width: 600px;
+    padding: 140px 10px 0px 20px;
+    float: right
+}
+.section3 .texto-section3 h1{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: normal;
+    font-style: italic;
+    color: #fff;
+}
+.section3 .texto-section3 p{
+    margin-top: 15px;
+    font-weight: lighter;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-right: 10px;
+    font-size: 15px;
+    color: white;
+    height: 60px;
+    line-height: 35px;
+}
+
+.section3 .container-parte2 {
+    width: 100%;
+    max-width: 600px;
+    padding: 140px 10px 0px 50px;
+}
+.section3 .container-parte2 .titulo-author h2{
+      font-weight: normal;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      float: left;
+
+}        
+.section3 .container-parte2 .titulo-author p{
+    color:rgb(100, 100, 100);
+    font-style: italic;
+    font-size: 15px;
+
+    
+}
+
+.img-section3{
+  width: 40px;
+  height: 40px;
+  background-color: #000;
+  float: left;
+  border-radius: 40px;
+  margin-left: 30px;
+}
+.section3 .descricao{
+    width: 100%;
+    margin-top: 10px;
+}
+.section3 .descricao p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+div.descricao span{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-top: 10px;
+    margin-right: 5px;
+    border-radius: 16px;
+    background: #ccc;
+}
+div.descricao .selected{
+    background-color: #aaa;
+}
+/*fim section3*/
+
+/*estilizando section4*/
+
+.section4{
+    background-color: #472563;
+}
+
+.section4 .section4-container{
+    width: 50%;
+    float: left;
+    padding: 0 10px;
+    padding-left: 20px;
+    margin-top: 80px;
+}
+.section4-container .texto-form{
+    width: 100%;
+    max-width: 400px;
+}
+.section4-container .texto-form h2{
+    font-size: 25px;
+}
+.section4-container .texto-form p{
+    font-size: 15px;  
+    margin-top: 5px;
+    line-height: 22px;
+}
+.format-comun{
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;  
+}
+.section4 form{
+    width: 100%;
+    max-width: 480px;
+}
+.section4 form input[type=text]{
+    width: 100%;
+    height: 55px;
+    margin-top: 8px;
+}
+
+.section4 form textarea{
+    width: 100%;
+    margin-top: 8px;
+    height: 140px;
+}
+.section4 form input[type=submit]{
+    border: 0;
+    background-color: #FF703D;
+    width: 165px;
+    height: 44px;
+    font-size: 13px;
+    color: white;
+    cursor: pointer;
+    margin-top: 15px;
+    border-radius: 30px;
+}
+.section-container2{
+    width: 50%;
+    float: left;
+    margin-top: 80px;
+}
+.container-interno{
+  width: 100%;
+  max-width: 480px;
+  padding: 0 20px;
+  margin-left: 10px;
+}
+.section-container2 .container-interno h2{
+    font-size: 25px;
+}
+.container-map{
+    width: 100%;
+    margin-top: 10px;
+    
+}
+.container-map .map{
+    width: 100%;
+    padding-top: 100%;
+    position: relative;
+    background:#fff;
+    border: solid 5px #ccc;
+    margin-bottom: 50px;
+}
+.map-2{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+/*fim section4*/
+
+/*footer*/
+footer{
+    width: 100%;
+    height: 100px;
+    padding-top: 45px;
+    background-color:rgb(40, 40, 40);
+}
+footer div.center div:nth-last-of-type(3){
+ color: white;
+ float: left;   
+}
+footer div.center div:nth-last-of-type(2){
+ color: white;   
+ float: right;
+}
+
+/*reponsivo*/
+
+@media screen and (max-width: 780px) {
+    nav.descktop-menu .descktop{
+         display: none;  
+    }
+    .hambur{
+        display: block;
+    }
+    .hambur:hover ~ ul.mobile-menu {
+        display:block;
+    
+    }
+    .container-texto{
+        width: 100%;
+        float: none;
+        margin: 190px 0;
+        padding: 0 20px;
+        text-align: center;
+    }
+    
+    .container-texto h1{
+        font-size: 30px;
+    }
+    
+    .container-texto p{
+        font-size: 15px;
+        width: 90%;
+        margin-left:  auto;
+        margin-right: auto;
+    }
+    section.section1 div.center{
+        max-width: 900px;/*limitando mais o tamanho da tela para ajustar elementos*/
+    } 
+    
+    /*container texto*/
+
+    .section1 .section-texto{
+        width: 100%;
+        padding-bottom: 40px;
+         position: static;
+         display: inline-block;
+         text-align: center;
+    }
+
+    
+    .section1 .section-texto ul{
+        position: relative;
+        width: 150px;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: left;
+        margin-top: 30px;
+    }
+    .section1 .section-texto ul li{
+        margin-top: 10px;
+        
+    }
+    .section1 .section-texto button{
+        width: 165px;
+        height: 44px;
+        border-radius: 20px;
+        border: none;
+        margin-top: 25px;
+        color: white;
+        font-size: 15px;
+        background-color: #FF703D;
+    }
+    
+    .section1  div.img{
+      display: none;
+    }
+    /*fim section com imagem de celular*/
+    
+
+    .section2 div.img{
+        height: 250px;
+        display: inline-block;
+    }
+
+    .section3 {
+        width: 100%;
+        height: 500px; 
+    }
+    
+    
+}
+
+@media screen and (max-width:720px) {
+    .section3 {
+        width: 100%;
+        height: 300px; 
+    }
+    
+    .section3 .parte1{
+        width: 100%;
+    }
+    .section3 .parte2{
+        width: 100%;
+    }
+    .section3 .container-parte2{
+        padding-top:110px ;
+    }
+    .section3 .texto-section3{
+        width: 100%;
+        max-width: 600px;
+        padding: 100px 10px 0px 20px;
+
+    }
+  /*fim section3*/  
+
+  /*section4*/
+
+  /*container1*/
+    .section4 .section4-container{
+        width: 100%;
+        text-align: center;
+    }
+    .section4 .section4-container .section4-container-interno{
+        display: inline-block;  
+    }
+    .section4-container .texto-form{
+        max-width: 400px;
+    }
+/*fim container1*/
+
+/*container2*/
+    .section-container2{
+        width: 100%;
+        text-align: center;
+    }
+  
+    .container-interno{
+      display: inline-block;
+      max-width: 400px;
+      padding: 0;
+      margin-left: 0px;
+      text-align: center;
+    }
+
+    .container-map{
+        display: inline-block;
+        width: 90%;
+        
+    }
+
+    /*fim section4*/
+    
+    /*footer*/
+    footer div.center div{
+    float: none;  
+    text-align: center; 
+    width: 100%;
+    }
+    footer{
+        padding:0  0 30px 0; 
+    }
+
+}
+@media screen and (max-width:450px) {
+    .container-interno{
+        display: inline-block;
+        max-width: 400px;
+        padding: 0;
+        margin-left: 0px;
+        text-align: center;
+      }
+
+      .section3 .container-parte2{
+        padding-top:90px ;
+    }
+    .section3 .texto-section3{
+        width: 100%;
+        max-width: 600px;
+        padding: 80px 10px 0px 20px;
+
+    }
+}
